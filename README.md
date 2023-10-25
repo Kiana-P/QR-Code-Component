@@ -19,12 +19,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./design/desktop-solution.pngscreenshot.jpg)
+![](./design/desktop-solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-solution-using-flexbox-IzbzvQtZwA)
+- Live Site URL: [Add live site URL here](https://kiana-p.github.io/QR-Code-Component/)
 
 ## My process
 
