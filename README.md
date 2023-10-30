@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-solution-using-flexbox-IzbzvQtZwA)
-- Live Site URL: [Add live site URL here](https://kiana-p.github.io/QR-Code-Component/)
+- [Solution](https://www.frontendmentor.io/solutions/qr-solution-using-flexbox-IzbzvQtZwA)
+- [Live Site](https://kiana-p.github.io/QR-Code-Component/)
 
 ## My process
 

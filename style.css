@@ -1,6 +1,9 @@
 body{
     background-color: hsl(212, 45%, 89%);
-    min-height: 100vh;
+    height: 100vh;
+    height: 100svh;
+    width: 100vw;
+    width: 100svw;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,26 +11,10 @@ body{
 }
 
 .container{
-    height: fit-content;
-    width: fit-content;
-    margin: auto auto;
+    flex: 1 1 auto;
     display: flex;
     justify-content: center;
-    align-content: center;
-}
-
-img{
-    max-width: 90%;
-    margin: 1em;
-    border-radius: .5em;
-}
-
-h1{
-    font-size: 22px;
-}
-
-p{
-    font-size: 15px;
+    align-items: center;
 }
 
 .card{
@@ -35,15 +22,37 @@ p{
     border-radius: 1em;
     box-shadow: .05em 1.8em .9em hsla(219, 15%, 55%, 0.08);
     background-color: hsl(0, 0%, 100%);
-    max-width: 315px;
-    max-height: 500px;
-    margin: auto;
+    width: 300px;
+    height: 485px;
+    flex: 0 1 auto;
     text-align: center;
     font-family: 'Outfit', sans-serif;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+    border-radius: .5em;
 }
 
 .text{
-    margin: 0 2em ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+    padding: 0 1.3em;
+}
+
+h1{
+    font-size: 22px;
+    margin: 0;
+}
+
+p{
+    font-size: 15px;
+    margin: 0;
 }
 
 .main{
@@ -57,7 +66,7 @@ p{
 }
 
 .attribution{
-    margin: 0 auto;
+    flex: 0 1 auto;
     font-size: 11px;
     text-align: center;
     color: hsl(228, 45%, 44%);
